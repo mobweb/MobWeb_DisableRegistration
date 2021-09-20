@@ -1,0 +1,21 @@
+{
+    "name": "mobweb/disableregistration",
+    "description": "Simply redirects the customer account creation page to the homepage.",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*",
+        "narf/toolbox": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "MobWeb\\DisableRegistration\\": "src"
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Louis Bataillard <info@mobweb.ch>
+ * @package    MobWeb_DisableRegistration
+ * @copyright    Copyright (c) MobWeb GmbH (https://mobweb.ch)
+ */
+-->
+<config>
+    <type name="Magento\Customer\Controller\Account\Create">
+        <plugin name="mobweb_disableregistration_plugin_magento_customer_controller_account_create" type="\MobWeb\DisableRegistration\Plugin\Magento\Customer\Controller\Account\Create" sortOrder="1" disabled="false" />
+    </type>
+</config>
